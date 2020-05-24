@@ -1,0 +1,15 @@
+markovify==0.8.0
+pymorphy2==0.8
+pymorphy2-dicts==2.4.393442.3710985
+pymorphy2-dicts-ru==2.4.404209.4415854
+pymystem3==0.1.10
+pyparsing==2.2.0
+PySDL2==0.9.5
+PySocks==1.7.1
+pyTelegramBotAPI==3.1.0
+python-dateutil==2.6.1
+python-telegram-bot==12.6.1
+request==0.0.13
+requests==2.10.0
+requests-oauthlib==1.3.0
+urllib3==1.21.1
