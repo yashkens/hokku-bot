@@ -1,0 +1,2 @@
+TOKEN = '1195979358:AAGPXegY0gruiKnf7s_ktSt7f-2_wBUg8eg'
+# PROXY = {'https': 'socks5://3334135028:Ma45DvwH@orbtl.s5.opennetwork.cc:999', 'socks5': 'socks5://3334135028:Ma45DvwH@orbtl.s5.opennetwork.cc:999'}
