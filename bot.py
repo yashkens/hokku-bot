@@ -1,13 +1,21 @@
 import telebot
-import conf
 import re
 import markovify
 from pymorphy2 import MorphAnalyzer
+import os
+
 morph = MorphAnalyzer()
 
-PROXY = {'https': 'socks5://3334135028:Ma45DvwH@orbtl.s5.opennetwork.cc:999'}
+if 'CONFIG_IN_ENVIRON' in os.environ:
+    PROXY = {'https': os.environ.get('PROXY')}
+    TOKEN = os.environ.get('TOKEN')
+else:
+    import config
+    PROXY = config.PROXY
+    TOKEN = config.TOKEN
+
 telebot.apihelper.proxy = PROXY
-bot = telebot.TeleBot(conf.TOKEN)
+bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
