@@ -1,7 +1,5 @@
 import telebot
-from telebot import types
 import conf
-import requests
 import re
 import markovify
 from pymorphy2 import MorphAnalyzer
