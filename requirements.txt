@@ -76,7 +76,6 @@ pycodestyle==2.5.0
 pycodestyle-magic==0.4
 pycparser==2.20
 pyflakes==2.1.1
-pygame==1.9.3
 Pygments==2.2.0
 PyInstaller==3.2.1
 pymorphy2==0.8
