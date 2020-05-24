@@ -1,3 +1,4 @@
 pyTelegramBotAPI
 markovify
 pymorphy2
+python-telegram-bot[socks]
