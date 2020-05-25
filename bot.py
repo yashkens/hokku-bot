@@ -20,7 +20,7 @@ bot = telebot.TeleBot(TOKEN)
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     bot.send_message(message.chat.id,
-                     "Приветик")
+                     "Привет, самурай,\nлюбитель хокку юный.\nГотов сочинять.")
 
 @bot.message_handler(commands=['help'])
 def send_welcome(message):
