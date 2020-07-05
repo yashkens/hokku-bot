@@ -7,14 +7,14 @@ import os
 morph = MorphAnalyzer()
 
 if 'CONFIG_IN_ENVIRON' in os.environ:
-    PROXY = {'https': os.environ.get('PROXY')}
+#     PROXY = {'https': os.environ.get('PROXY')}
     TOKEN = os.environ.get('TOKEN')
 else:
     import config
-    PROXY = config.PROXY
+#     PROXY = config.PROXY
     TOKEN = config.TOKEN
 
-telebot.apihelper.proxy = PROXY
+# telebot.apihelper.proxy = PROXY
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
